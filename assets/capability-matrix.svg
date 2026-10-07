@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Skills: Python FastAPI 88, React TypeScript 82, scikit-learn NumPy 76, Three.js GSAP motion 71, Pandas data wrangling 72, Tailwind CSS 80">
+  <defs>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="0 0 0 0 0.25  0 0 0 0 0.72  0 0 0 0 0.31  0 0 0 0.45 0" result="h"/>
+      <feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter></defs>
+  <style>
+    text { font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    .hd { font-size:14px; letter-spacing:1.4px; fill:#E6EDF3; }
+    .mu { font-size:12px; fill:#8B949E; }
+    .lb { font-size:13.5px; fill:#E6EDF3; fill-opacity:.88; }
+    .pc { font-size:12.5px; fill:#3FB950; }
+  </style>
+  <rect width="1000" height="250" rx="10" fill="#0D1117"/>
+  <text x="44" y="46" class="hd">Where I spend my time</text>
+  <text x="956" y="46" class="mu" text-anchor="end">self-assessed, not a benchmark</text>
+  <line x1="44" y1="62" x2="956" y2="62" stroke="#3FB950" stroke-opacity=".18"/>
+  
+    <g>
+      <text x="44" y="82" class="lb">Python · FastAPI</text>
+      <text x="416" y="82" class="pc" text-anchor="end">88
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.22;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="44" y="92" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="44" y="92" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;327.4;327.4;0" keyTimes="0;0.12;0.22;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+    <g>
+      <text x="524" y="82" class="lb">React · TypeScript</text>
+      <text x="896" y="82" class="pc" text-anchor="end">82
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.175;0.275;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="524" y="92" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="524" y="92" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;305.0;305.0;0" keyTimes="0;0.175;0.275;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+    <g>
+      <text x="44" y="132" class="lb">scikit-learn · NumPy</text>
+      <text x="416" y="132" class="pc" text-anchor="end">76
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.23;0.33;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="44" y="142" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="44" y="142" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;282.7;282.7;0" keyTimes="0;0.23;0.33;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+    <g>
+      <text x="524" y="132" class="lb">Three.js · GSAP · motion</text>
+      <text x="896" y="132" class="pc" text-anchor="end">71
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.285;0.385;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="524" y="142" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="524" y="142" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;264.1;264.1;0" keyTimes="0;0.285;0.385;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+    <g>
+      <text x="44" y="182" class="lb">Pandas · data wrangling</text>
+      <text x="416" y="182" class="pc" text-anchor="end">72
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.44;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="44" y="192" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="44" y="192" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;267.8;267.8;0" keyTimes="0;0.34;0.44;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+    <g>
+      <text x="524" y="182" class="lb">Tailwind · CSS</text>
+      <text x="896" y="182" class="pc" text-anchor="end">80
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.395;0.495;0.94;1" dur="11s" repeatCount="indefinite"/>
+      </text>
+      <rect x="524" y="192" width="372" height="6" rx="3" fill="#3FB950" fill-opacity="0.12"/>
+      <rect x="524" y="192" width="0" height="6" rx="3" fill="#3FB950">
+        <animate attributeName="width" values="0;0;297.6;297.6;0" keyTimes="0;0.395;0.495;0.94;1" dur="11s" repeatCount="indefinite"
+                 calcMode="spline" keySplines="0 0 1 1;.2 .85 .3 1;0 0 1 1;0 0 1 1"/>
+      </rect>
+    </g>
+  <rect x=".5" y=".5" width="999" height="249" rx="10" fill="none" stroke="#3FB950" stroke-opacity=".22"/>
+</svg>

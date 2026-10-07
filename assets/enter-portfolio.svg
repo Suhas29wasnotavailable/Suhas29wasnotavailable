@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="64" viewBox="0 0 420 64" role="img" aria-label="View the portfolio">
+  <defs>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="0 0 0 0 0.25  0 0 0 0 0.72  0 0 0 0 0.31  0 0 0 0.45 0" result="h"/>
+      <feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3FB950" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3FB950" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="bc"><rect x="3" y="3" width="414" height="58" rx="8"/></clipPath>
+  </defs>
+  <style>
+    text { font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace; }
+    @keyframes glide { 0%{transform:translateX(-200px)} 100%{transform:translateX(420px)} }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important } }
+  </style>
+  <rect x="3" y="3" width="414" height="58" rx="8" fill="#0D1117"/>
+  <g clip-path="url(#bc)"><rect width="200" height="64" fill="url(#sheen)" style="animation:glide 4.5s ease-in-out infinite"/></g>
+  <rect x="5" y="5" width="410" height="54" rx="7" fill="none" stroke="#3FB950" stroke-opacity=".30"/>
+  <rect x="5" y="5" width="410" height="54" rx="7" fill="none" stroke="#56D364" stroke-width="1.4"
+        stroke-dasharray="70 858" filter="url(#g)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-928" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="200.0" y="38" text-anchor="middle" font-size="17" letter-spacing="2.6" fill="#E6EDF3">View the portfolio</text>
+  <text x="330.0" y="38" font-size="17" fill="#3FB950">&#8594;
+    <animate attributeName="opacity" values="1;.4;1" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+</svg>
