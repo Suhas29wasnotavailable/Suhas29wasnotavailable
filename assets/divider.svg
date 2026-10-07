@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="10" viewBox="0 0 1000 10" role="img" aria-label="">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3FB950" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#56D364" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>@keyframes run { 0%{transform:translateX(-180px)} 100%{transform:translateX(1000px)} }
+  @media (prefers-reduced-motion: reduce) { * { animation:none !important } }</style>
+  <line x1="0" y1="5" x2="1000" y2="5" stroke="#3FB950" stroke-opacity=".18"/>
+  <g style="animation:run 6s linear infinite"><rect x="0" y="4" width="180" height="2" fill="url(#p)"/></g>
+</svg>
