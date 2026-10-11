@@ -51,7 +51,8 @@ baseline is worth more than one that only reports its wins.
 
 | Project | What it does | Built with |
 |:--------|:-------------|:-----------|
-| **[apex-f1](https://github.com/Suhas29wasnotavailable/apex-f1)** | A digital twin of an F1 race. Tests whether reinforcement learning actually beats dynamic programming for race strategy — and publishes the result when it doesn't. | `Python` `NumPy` `Polars` |
+| **[BLRoad](https://github.com/Suhas29wasnotavailable/blroad)** | Propose a fix for Bengaluru's roads and get it reviewed like a transport planner would, then watch it built on a live map along real streets. Compare two proposals head to head. | `TypeScript` `React` `Leaflet` |
+| **[apex-f1](https://github.com/Suhas29wasnotavailable/apex-f1)** · *in progress* | A digital twin of an F1 race. Tests whether reinforcement learning actually beats dynamic programming for race strategy — and publishes the result when it doesn't. | `Python` `NumPy` `Polars` |
 | **[CodePatternAnalyzer](https://github.com/Suhas29wasnotavailable/CodePatternAnalyzer)** · [demo](https://code-pattern-analyzer.vercel.app) | Works out who wrote a Python file from style alone — AST structure paired with character n-grams through an MLP classifier. | `Python` `scikit-learn` `FastAPI` |
 | **[portfolio](https://github.com/Suhas29wasnotavailable/portfolio)** · [live](https://suhasy.vercel.app) | My personal site — motion, smooth scroll, a WebGL scene, built to stay fast. | `React` `Three.js` `GSAP` |
 | **[gauri-khetan-portfolio](https://github.com/Suhas29wasnotavailable/gauri-khetan-portfolio)** · [live](https://gauri-khetan.vercel.app) | Portfolio site built for a product and brand designer. | `JavaScript` `CSS` |
